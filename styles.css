@@ -34,6 +34,37 @@ a {
 header {
   padding-top: 10px;
 }
+
+.heart-icon {
+  width: 15.16px;
+  height: 13px;
+}
+
+.heart-icon-stroke:hover {
+  transition: fill 0.7s ease;
+  fill: #111;
+}
+
+.location-icon {
+  width: 14px;
+  height: 14px;
+}
+
+.location-icon-stroke:hover{
+  transition: fill 0.7s ease;
+  fill: #111;
+}
+
+.contact-icon {
+  width: 15.16px;
+  height: 13px;
+}
+
+.contact-icon-stroke:hover{
+  transition: fill 0.7s ease;
+  fill: #111;
+}
+
   header nav {
     padding-bottom: 50px;
     text-align: left;
@@ -87,4 +118,16 @@ footer {
 .corgis {
   width: 170px;
   height: 170px;
+}
+
+@media screen and (max-width: 419px) {
+  .st1 {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .logo-headline {
+    visibility: hidden;
+  }
 }
